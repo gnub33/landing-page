@@ -28,6 +28,9 @@ footer {
     padding: 50px;
 }
 
+
+
+
 /* nav section */
 nav {
     display: flex;
@@ -63,6 +66,8 @@ a {
 
 
 
+
+
 /* hero section */
 
 .main-title {
@@ -75,20 +80,27 @@ a {
     padding: 150px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 150px;
 }
 
 .hero-text {
-    width: 350px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
 .hero-image {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
+
+.header-button {
+    border-radius: 10px;
+    width: 100px;
+}
+
+
 
 
 
@@ -131,17 +143,28 @@ figcaption {
     width: 175px;
 }
 
+
+
+
+
 /* quote section */
 
 .quote {
     background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote figure {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
-    color: #1f2937
+    color: #1f2937;
 }
 
 .quote-source {
@@ -152,6 +175,10 @@ blockquote {
     font-size: 18px;
 }
 
+
+
+
+
 /* cta section */
 
 .cta {
@@ -161,13 +188,21 @@ blockquote {
     display: flex;
     justify-content: space-around;
     padding: 40px;
-    margin: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cta-button {
     border:#e5e7eb solid 2px;
     border-radius: 10px;
+    margin-top: auto;
 }
+
+.cta-text h4 {
+    font-size: 20px;
+}
+
 
 /* footer */
 footer {
